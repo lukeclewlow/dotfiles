@@ -2,7 +2,7 @@
 
 dir=~/Documents/Projects/dotfiles
 olddir=~/Documents/Projects/dotfiles_old
-files="bash_profile"
+files="bash_profile irbrc"
 
 mkdir $olddir
 
