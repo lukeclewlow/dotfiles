@@ -17,6 +17,8 @@ alias gitcfg="git config --global push.default simple"
 alias cd..="cd .."
 alias ..="cd .."
 
+alias gitupdate="brew upgrade git"
+
 
 alias irb="clear && irb"
 alias cucumber="clear && cucumber"
