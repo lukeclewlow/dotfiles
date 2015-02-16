@@ -27,13 +27,13 @@ alias gitupdate="brew upgrade git"
 alias irb="clear && irb"
 alias cucumber="clear && cucumber"
 alias rspec="clear && rspec"
+alias bonsai="tree -I 'node_modules'"
 
 
 cd Documents/Projects
 
 
 export TESTING_MAKERS=working
-
 
 ################
 #FUNCTIONS
