@@ -4,10 +4,6 @@ export PATH="/usr/local/bin:$PATH"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
-export TWITTER_CONSUMER_KEY='qKAJIH2CiZ6tu6JjD6Z0TvbnO'
-export TWITTER_CONSUMER_SECRET='yhljwhMByQglxbSVv1Ay2VdnvfSVoVeFZhtuNmoplTuFeRy28K'
-export TWITTER_ACCESS_TOKEN='3001205981-A2XamTzG102z03uDbE9o8bFoLNEyCPiCZaFlmid'
-export TWITTER_ACCESS_SECRET='jBEKFd73jYl18XnHi8j5YUdApfPmKhg0ORNNJ2pM56qzs'
 
 alias ll="ls -lhA"
 alias go="git checkout"
@@ -31,6 +27,7 @@ alias bonsai="tree -I 'node_modules'"
 cd Documents/Projects
 
 export TESTING_MAKERS=working
+
 
 ################
 #FUNCTIONS
