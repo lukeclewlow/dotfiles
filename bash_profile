@@ -6,7 +6,6 @@ export PATH="/usr/local/bin:$PATH"
 
 
 alias ll="ls -lhA"
-alias go="git checkout"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO"
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES"
 alias gh="git hist"
@@ -27,6 +26,9 @@ alias bonsai="tree -I 'node_modules'"
 cd Documents/Projects
 
 export TESTING_MAKERS=working
+export GOPATH=/Users/LukeNukem/Documents/Projects/elearning/global-api
+
+eval "$(hub alias -s)"
 
 
 ################
